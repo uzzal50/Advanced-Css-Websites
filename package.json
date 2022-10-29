@@ -1,0 +1,22 @@
+{
+  "name": "1.natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzzal50/Advanced-Css-Websites.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uzzal50/Advanced-Css-Websites/issues"
+  },
+  "homepage": "https://github.com/uzzal50/Advanced-Css-Websites#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
