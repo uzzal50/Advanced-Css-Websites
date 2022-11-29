@@ -1,0 +1,53 @@
+.footer {
+  background-color: $color-grey-dary-1;
+  padding: 10rem 0;
+  font-size: 1.4rem;
+  color: $color-grey-light-1;
+  &__logo {
+    width: 15rem;
+    height: auto;
+  }
+  &__logo-box {
+    text-align: center; //in;ine element jsut behaves like text
+  }
+  &__navigation {
+    border-top: 1px solid red;
+    display: inline-block;
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+  }
+  &__item {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+  }
+  &__link {
+    &:link,
+    &:visited {
+      color: $color-grey-light-1;
+      // background-color: $color;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      transition: all 0.2s;
+    }
+    &:hover,
+    &:active {
+      color: $color-grey-dary-1;
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+      transform: rotate(5deg) scale(1.3);
+    }
+  }
+  &_copyright {
+    color: $color-grey-light-1;
+    border-top: 1px solid $color-grey-dark;
+    display: inline-block;
+    width: 80%;
+    float: right;
+  }
+}
